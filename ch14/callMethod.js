@@ -1,5 +1,5 @@
 function Shape() {
-  this.color = this.color;
+  this.color = color;
 }
 
 Shape.prototype.common = function () {
@@ -18,4 +18,4 @@ Square.prototype.draw = function () {
   console.log("drawing");
 };
 
-let sqr = new Square(55, "green");
+const sqr = new Square(55, "green");
