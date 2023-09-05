@@ -16,7 +16,8 @@ function createIterator(collection) {
   };
 }
 
-let iterate = createIterator(arr);
+const iterate = createIterator(arr);
+
 console.log(iterate.next());
 console.log(iterate.next());
 console.log(iterate.next());
